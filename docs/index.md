@@ -31,3 +31,4 @@ Script en Bash que genera un <strong>informe profesional</strong> con:
 ```bash
 curl -s https://raw.githubusercontent.com/isaiasfl/sensores/main/Script/install.sh | bash
 ```
+
