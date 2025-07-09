@@ -1,7 +1,3 @@
----
-layout: default
-title: Sensores by Isaías FL
----
 
 <h1 align="center">🚀 <b>Proyecto Sensores</b></h1>
 <h3 align="center">📊 Monitorea tu sistema con estilo</h3>
