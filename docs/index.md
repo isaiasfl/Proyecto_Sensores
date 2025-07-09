@@ -30,7 +30,7 @@ Script en Bash que genera un <strong>informe profesional</strong> con:
 
 ```bash
 curl -s https://raw.githubusercontent.com/isaiasfl/sensores/main/Script/install.sh | bash
-````
+```
 
 ---
 
@@ -50,8 +50,8 @@ Esto mostrará al instante la información del sistema en formato claro y colori
 
 Durante la instalación, se crea automáticamente un alias llamado `sensores`, que se añade a tu archivo de configuración de shell:
 
-* `~/.zshrc` (si usas Zsh)
-* o `~/.bashrc` (si usas Bash)
+- `~/.zshrc` (si usas Zsh)
+- o `~/.bashrc` (si usas Bash)
 
 Este alias permite que el script se ejecute sin necesidad de poner la ruta completa.
 
@@ -75,9 +75,9 @@ sensores --desinstalar
 
 Este comando realiza lo siguiente:
 
-* Elimina el ejecutable de `/usr/local/bin/sensores`
-* Borra el directorio de configuración `~/.config/sensores`
-* Elimina el alias del archivo `~/.zshrc` o `~/.bashrc`
+- Elimina el ejecutable de `/usr/local/bin/sensores`
+- Borra el directorio de configuración `~/.config/sensores`
+- Elimina el alias del archivo `~/.zshrc` o `~/.bashrc`
 
 ---
 
@@ -85,6 +85,3 @@ Este comando realiza lo siguiente:
 
 ¿Tienes ideas, mejoras o quieres contribuir?
 Haz un fork del repo o abre una issue en [GitHub](https://github.com/isaiasfl/sensores).
-
-```
-
