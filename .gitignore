@@ -1,0 +1,59 @@
+# === Sistema ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# === Archivos temporales / de editor ===
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.orig
+
+# === Archivos de entorno o configuración local ===
+.env
+*.local
+
+# === Archivos de ejecución y compilación (por si algún día se añade) ===
+*.out
+*.exe
+*.bin
+*.tar
+*.gz
+*.zip
+
+# === carpetas ocultas de VS Code, JetBrains, etc ===
+.vscode/
+.idea/
+
+# === carpetas de pruebas o runtime ===
+__pycache__/
+.cache/
+node_modules/
+tmp/
+temp/
+
+# === Backup de paquetes .deb o instalaciones — por si pruebas más adelante ===
+*.deb
+*.rpm
+
+# === Archivos que no deberían subir nunca ===
+/usr/
+/bin/
+/lib/
+/etc/
+
+# === Ignorar resultados generados por el script ===
+/output.txt
+/output.log
+sensores-report*
+
+# === ¡IMPORTANTE! ===
+# Si usas `install.sh` que crea `sensores` en /usr/local/bin/, eso no debe versionarse.
