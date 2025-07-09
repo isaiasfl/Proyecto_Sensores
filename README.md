@@ -127,8 +127,8 @@ sensores/
 └── README.md            # Este archivo
 ```
 
-```
 
----
+
+
 
 
