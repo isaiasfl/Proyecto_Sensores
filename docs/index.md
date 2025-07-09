@@ -1,101 +1,95 @@
 ---
-title: Sensores en Proxmox
-layout: default
+title: Sensores by Isaías FL
 ---
 
 <style>
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin-top: 1rem;
-  color: #4A90E2;
-}
-.logo-container {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-}
-.logo-container img {
-  width: 300px;
-  max-width: 80%;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-}
-section {
-  max-width: 900px;
-  margin: auto;
-  padding: 1rem;
+h1, h2, h3 {
   font-family: 'Segoe UI', sans-serif;
-  line-height: 1.7;
+  text-align: center;
+  color: #0066cc;
 }
-.highlight {
-  background-color: #e8f4fd;
-  border-left: 5px solid #4A90E2;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  border-radius: 8px;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  max-width: 850px;
+  margin: auto;
+  padding: 2em;
+  line-height: 1.6;
 }
-code {
+img.banner {
+  display: block;
+  margin: 0 auto 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #aaa;
+}
+.code-block {
   background-color: #f3f3f3;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-.install-box {
-  background: #f0f8ff;
-  border-left: 6px solid #2e86de;
-  padding: 1rem;
-  margin: 2rem 0;
+  border-left: 4px solid #0066cc;
+  padding: 1em;
   font-family: monospace;
-  font-size: 1rem;
-  white-space: pre-wrap;
+  overflow-x: auto;
+}
+.install-btn {
+  display: inline-block;
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+.install-btn:hover {
+  background-color: #005f9e;
 }
 </style>
 
-# 🔧 Sensores en Proxmox
+# 🚀 Proyecto Sensores
 
-<div class="logo-container">
-  <img src="img1.png" alt="Logo Sensores by Isaías FL">
+## 🧰 Monitorea tu sistema con estilo
+
+<img src="./img1.png" alt="Sensores Screenshot" class="banner"/>
+
+Script en Bash que genera un **informe profesional** con:
+
+- ✅ Temperaturas de CPU
+- ✅ Estado de discos NVMe
+- ✅ Dispositivos PCI conectados
+- ✅ Salida clara y coloreada
+- ✅ Funciona en Proxmox, Debian, Ubuntu...
+
+---
+
+## ⚡ Instalación rápida
+
+<a class="install-btn" href="#instalacion">▶️ Instalar ahora</a>
+
+<div class="code-block">
+curl -s https://raw.githubusercontent.com/isaiasfl/sensores/main/Script/install.sh | bash
 </div>
 
-<section>
+---
 
-Script en Bash que muestra un informe completo de:
+## 💡 ¿Qué hace exactamente?
 
-✅ Temperaturas de CPU  
-✅ Discos NVMe  
-✅ Dispositivos PCI  
-✅ ¡Todo presentado con estilo visual y profesional!
+🔍 Detecta y muestra:
+
+- Temperaturas por núcleo (verde 🟢, amarillo 🟡, rojo 🔴)
+- Estado de discos NVMe: uso, ciclos de energía, errores
+- Dispositivos PCI: GPU, red, controladoras...
 
 ---
 
-## 🚀 Instalación rápida
+## 🧪 Ejemplo de salida
 
-<div class="install-box">
-curl -s https://raw.githubusercontent.com/isaíasfl/sensores/main/Script/install.sh | bash
-</div>
+(Ver captura superior ↑ o ejecutar tras instalar con `sensores`)
 
 ---
 
-## 🧠 ¿Qué hace exactamente?
-
-- Detecta y muestra temperaturas en color (verde, amarillo, rojo)
-- Estado de discos NVMe (uso, temperatura, ciclos de energía...)
-- Lista de dispositivos PCI relevantes
-- Se instala como comando `sensores` en todo el sistema
-
----
-
-## 📎 Código limpio y modular
-
-El script está dividido en funciones con comentarios claros. Fácil de modificar y extender si lo necesitas.
-
----
-
-## 📃 Desinstalación
-
-Puedes quitar el script ejecutando:
+## 🧽 Desinstalación
 
 ```bash
-sensores --desinstalar
+bash sensores --desinstalar
 ```
